@@ -11,7 +11,7 @@ public class Main {
         int[] end = {0, 4};
         int[][] visit = new int[4][7];
         ArrayList<int[]> history = new ArrayList<>();
-        System.out.printf(String.valueOf(matrix[0].length));
+//        System.out.printf(String.valueOf(matrix[0].length));
         initVisit(visit, matrix);
         history = searchRoute(start, end, visit, matrix, new ArrayList<>(), -1);
         for (int i = 0; i < history.size(); i++) {
